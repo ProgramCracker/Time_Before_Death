@@ -25,4 +25,4 @@ enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
 enemyScript[ENEMYSTATE.HURT] = -1;
 enemyScript[ENEMYSTATE.DIE] = -1;
-enemyScript[ENEMYSTATE.WAIT] = -1;
+enemyScript[ENEMYSTATE.WAIT] = EnemyWait;

@@ -6,7 +6,7 @@
     "path": "folders/Scripts/PlayerStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerStateFree",
+  "name": "PlayerAttacks",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "EnemyStuff",
+    "path": "folders/Scripts/EnemyStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "AttackSlash",
+  "name": "EnemyTileCollision",
   "tags": [],
   "resourceType": "GMScript",
 }

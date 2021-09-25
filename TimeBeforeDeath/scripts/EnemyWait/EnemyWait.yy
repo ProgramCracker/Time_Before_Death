@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "PlayerStuff",
-    "path": "folders/Scripts/PlayerStuff.yy",
+    "name": "EnemyStuff",
+    "path": "folders/Scripts/EnemyStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerStateFree",
+  "name": "EnemyWait",
   "tags": [],
   "resourceType": "GMScript",
 }
