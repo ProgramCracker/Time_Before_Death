@@ -5,8 +5,8 @@ function MACROS(){
 	#macro TILE_SIZE 8
 	#macro CARDINAL_DIR round(direction/90)
 	#macro ROOM_START Room1
-	#macro RESOLUTION_W 320
-	#macro RESOLUTION_H 180
+	#macro RESOLUTION_W 640
+	#macro RESOLUTION_H 360
 
 	enum ENEMYSTATE {
 		IDLE,

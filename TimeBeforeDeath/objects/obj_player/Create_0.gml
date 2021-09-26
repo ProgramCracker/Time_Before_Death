@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // player states for walking and attacking
-state = PlayerStateFree;
+ state = PlayerStateFree;
  stateAttack = AttackSlash;
  hitByAttack = -1;
  lastState = state;
@@ -16,6 +16,13 @@ state = PlayerStateFree;
  hsp = 0;
  vsp = 0;
  walkspd = 2.0;
+ distanceShake = 40;
+ distanceShakeHeight = 12;
+ speedShake = 1.5;
+ z = 0; 
+ 
+ // damage stuff
+ invulnerable = 60;
  
 // key initialization. D, A, W, S, K(?), L(?)
  key_right = 0;
@@ -26,6 +33,6 @@ state = PlayerStateFree;
  key_attack = 0;
  
 // sprite initialization for idle and walking
- spriteIdle = spr_pl1; // replace with actual sprite
- spriteRun = spr_pl2; // replace with actual sprite
+ spriteIdle = spr_player; // replace with actual sprite
+ spriteRun = spr_player_walk; // replace with actual sprite
  localFrame = 0;

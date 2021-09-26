@@ -22,7 +22,7 @@ if (_oldSprite != sprite_index) {
 PlayerAnimateSprite();
 
 // do it for each attack key
-if (obj_player.key_attack) {
+ if (obj_player.key_attack) {
 	state = PlayerStateAttack;
 	stateAttack = AttackSlash;
 }
@@ -32,10 +32,10 @@ if (obj_player.key_int) {
 	var _activateY = lengthdir_y(10, direction);
 	activate = instance_position(x + _activateX, y + _activateY, p_entity);
 	
-	if (activate == noone || activate.entityActivateScript == -1) {
-		// do nothing
-	} else {
-		ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
-	}
-	}
+		if (activate == noone || activate.entityActivateScript == -1) {
+			// do nothing
+		} else {
+			ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
+		}
+	} 
 }

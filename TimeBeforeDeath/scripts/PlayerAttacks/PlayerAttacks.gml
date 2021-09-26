@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function AttackSlash(){
+ function AttackSlash(){ 
 // spr_pl3 = attack sprite
 
 // start the attack animation
-if (sprite_index != spr_pl3) {
-		sprite_index = spr_pl3;
+if (sprite_index != spr_player_attack) {
+		sprite_index = spr_player_attack;
 		localFrame = 0;
 		
 // image index check
@@ -20,7 +20,7 @@ if (sprite_index != spr_pl3) {
 	}
 	
 // function that gives damage to enemies
-	CalcAttack(spr_colattack);
+	CalcAttack(spr_player_attack_col);
 	
 	PlayerAnimateSprite();
 	
@@ -28,7 +28,7 @@ if (sprite_index != spr_pl3) {
 		state = PlayerStateFree;
 		animationEnd = false;
 	}
-}
+} 
 
 function CalcAttack(argument0){
 mask_index = argument0;
@@ -53,7 +53,7 @@ mask_index = argument0;
 	}
 	
 	ds_list_destroy(hitByAttackNow);
-	mask_index = spr_pl1; // or whatever the idle sprite is
+	mask_index = spr_player; // or whatever the idle sprite is
 }
 
 function HurtEnemy(_enemy, _damage, _source, _knockback) {
@@ -78,4 +78,4 @@ function HurtEnemy(_enemy, _damage, _source, _knockback) {
 			}
 		}
 	}
-}
+} 

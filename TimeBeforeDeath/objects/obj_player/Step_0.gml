@@ -15,9 +15,10 @@ key_attack = keyboard_check_pressed(ord("K"));
 inputDirection = point_direction(0,0, key_right - key_left, key_down - key_up);
 inputMagnitude = (key_right - key_left != 0) || (key_down - key_up != 0);
 
-// state executable
+ // state executable
 if (!global.gamePaused) {
 	script_execute(state);
+	invulnerable = max(invulnerable-1, 0);
 }
 
 // find depth of player (layer thing)
