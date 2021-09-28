@@ -84,21 +84,8 @@ function EnemyAttack(){
 	// how fast to move
 	var _spd = enemySpeed;
 	
-	// don't move while doing a telegraph for move
-	if (image_index < 1 /* or whatever it'll be */) {
-		_spd = 0;
-	}
-	
-	// Freeze animation when finishes
-	if (floor(image_index) == 3) {
-		image_speed = 0;
-	}
-	
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
-	
-	if (image_index < 3) {
 		image_speed = 1.0;
-	}
 	
 	// move
 	if (_distanceToGo > _spd) {
@@ -126,7 +113,6 @@ function EnemyAttack(){
 }
 	
 function EnemyHurt() {
-	sprite_index = sprHurt;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
 	if (_distanceToGo > enemySpeed) {
 		image_speed = 1.0;
@@ -154,7 +140,6 @@ function EnemyHurt() {
 }
 
 function EnemyDie() {
-	sprite_index = sprDie;
 	image_speed = 1.0;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
 	if (_distanceToGo > enemySpeed) {
@@ -169,9 +154,6 @@ function EnemyDie() {
 		x = xTo;
 		y = yTo;
 	}
-	
-	if (image_index + (sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps)) >= image_number) {
 		instance_destroy();
 		global.playerHealth += 5.0;
-	}
 }
