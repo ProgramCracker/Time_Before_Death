@@ -20,6 +20,7 @@ if (responseSelected < _min) {
 }
 
 if (keyboard_check_pressed(ord("I"))) {
+	
 	var _messageLength = string_length(message);
 	if (textProgress >= _messageLength) {
 		if (responses[0] != -1) {

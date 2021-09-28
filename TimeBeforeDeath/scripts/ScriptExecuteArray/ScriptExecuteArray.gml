@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
- function ScriptExecuteArray(scr, args){
+function ScriptExecuteArray(scr, args){
 	var _scr = argument0;
 	var _args = argument1;
 	
@@ -15,4 +15,4 @@
 		case 8: return script_execute(_scr, _args[0], _args[1], _args[2], _args[3], _args[4], _args[5], _args[6], _args[7]);
 		default: show_error("script_execute_array: argument count not supported!", false);
 	}
-} 
+}

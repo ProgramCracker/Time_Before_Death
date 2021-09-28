@@ -12,3 +12,6 @@ lerpProgress = 0;
 textProgress = 0;
 
 responseSelected = 0;
+
+message = "Default message";
+background = 0;

@@ -3,7 +3,7 @@
 randomize();
 
 global.gamePaused = false;
-global.textSpeed = 0.75;
+global.textSpeed = .75;
 global.font_main = font_add_sprite(font_test, 32, true, 1);
 global.playerHealthMax = 300.0;
 global.playerHealth = global.playerHealthMax;
