@@ -6,6 +6,7 @@
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},"order":6,},
     {"id":{"name":"spr_archer","path":"sprites/spr_archer/spr_archer.yy",},"order":5,},
     {"id":{"name":"obj_shielder","path":"objects/obj_shielder/obj_shielder.yy",},"order":5,},
+    {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":1,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},"order":7,},
     {"id":{"name":"spr_enemyTEST","path":"sprites/spr_enemyTEST/spr_enemyTEST.yy",},"order":7,},
@@ -53,6 +54,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
     {"id":{"name":"spr_shielder","path":"sprites/spr_shielder/spr_shielder.yy",},"order":13,},
     {"id":{"name":"spr_NPCTEST","path":"sprites/spr_NPCTEST/spr_NPCTEST.yy",},"order":3,},
+    {"id":{"name":"Menu01","path":"objects/Menu01/Menu01.yy",},"order":0,},
     {"id":{"name":"HurtPlayer","path":"scripts/HurtPlayer/HurtPlayer.yy",},"order":8,},
     {"id":{"name":"spr_caster_die","path":"sprites/spr_caster_die/spr_caster_die.yy",},"order":16,},
     {"id":{"name":"shWhiteFlash","path":"shaders/shWhiteFlash/shWhiteFlash.yy",},"order":0,},
@@ -82,6 +84,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -107,6 +110,7 @@
     {"folderPath":"folders/Objects/enemies/MiniBosses.yy","order":4,"resourceVersion":"1.0","name":"MiniBosses","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tilesets.yy","order":13,"resourceVersion":"1.0","name":"Tilesets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/enemies/FinalBoss.yy","order":5,"resourceVersion":"1.0","name":"FinalBoss","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/UI.yy","order":10,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
