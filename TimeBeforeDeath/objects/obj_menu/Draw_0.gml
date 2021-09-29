@@ -11,5 +11,5 @@ for (var i = 0; i < op_length; i++) {
 		_c = c_green;
 	}
 	draw_set_color(_c);
-	draw_text_transformed(x + op_border, y + op_border + op_space * i, option[i], 1, 1, 5);
+	draw_text_transformed(x + op_border, y + op_border + (op_border / 6) + op_space * i, option[i], 1, 1, 5);
 }

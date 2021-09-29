@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_MenuUI_Base_straight",
-    "path": "sprites/spr_MenuUI_Base_straight/spr_MenuUI_Base_straight.yy",
+    "name": "spr_Menu_Tilt_Base",
+    "path": "sprites/spr_Menu_Tilt_Base/spr_Menu_Tilt_Base.yy",
   },
   "solid": false,
   "visible": true,
