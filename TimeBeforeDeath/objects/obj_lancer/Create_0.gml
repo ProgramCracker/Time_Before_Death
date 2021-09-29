@@ -4,15 +4,12 @@
 // Inherit the parent event
 event_inherited();
 
-enemyDamageTouch = 0;
-enemyForceTouch = 0;
-state = ENEMYSTATE.WAIT;
+state = ENEMYSTATE.WANDER;
 
 sprMove = spr_lancer_walk;
-sprDie = spr_lancer_die;
 
-enemyScript[ENEMYSTATE.ATTACK] = EnemyAttack;
+enemyScript[ENEMYSTATE.WANDER] = EnemyWander;
 enemyScript[ENEMYSTATE.CHASE] = EnemyChase;
+enemyScript[ENEMYSTATE.ATTACK] = EnemyAttack;
 enemyScript[ENEMYSTATE.HURT] = EnemyHurt;
 enemyScript[ENEMYSTATE.DIE] = BossDie;
-enemyScript[ENEMYSTATE.WAIT] = -1;

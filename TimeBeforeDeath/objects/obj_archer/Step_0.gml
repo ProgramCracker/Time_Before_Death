@@ -4,10 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-if (enemyHP < 100) {
+if (enemyHP == 95) {
 	alarm[0] = 2 * room_speed;
-}
-
-if (enemyHP <= 0) {
-	obj_player.bow = 1;
 }
