@@ -4,7 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-alarm[0] = -1;
 enemyDamageTouch = 0;
 enemyForceTouch = 0;
 state = ENEMYSTATE.WAIT;
