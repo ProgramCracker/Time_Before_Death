@@ -68,6 +68,7 @@
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"order":7,},
     {"id":{"name":"obj_caster","path":"objects/obj_caster/obj_caster.yy",},"order":3,},
     {"id":{"name":"NPCDialogue","path":"scripts/NPCDialogue/NPCDialogue.yy",},"order":0,},
+    {"id":{"name":"Object21","path":"objects/Object21/Object21.yy",},"order":11,},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
