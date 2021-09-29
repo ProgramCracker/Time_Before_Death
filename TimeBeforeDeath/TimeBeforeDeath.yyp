@@ -11,18 +11,6 @@
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":1,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},"order":7,},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    {"id":{"name":"spr_enemyTEST","path":"sprites/spr_enemyTEST/spr_enemyTEST.yy",},"order":7,},
-=======
-    {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},"order":11,},
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 38a7228... Merge remote-tracking branch 'origin/NewMain' into NewMain
-=======
-    {"id":{"name":"spr_enemyTEST","path":"sprites/spr_enemyTEST/spr_enemyTEST.yy",},"order":7,},
->>>>>>> parent of 3219ac6... The monsters...they're here
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},"order":3,},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"order":6,},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},"order":3,},
