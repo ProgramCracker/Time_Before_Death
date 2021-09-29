@@ -9,8 +9,12 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},"order":7,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"spr_enemyTEST","path":"sprites/spr_enemyTEST/spr_enemyTEST.yy",},"order":7,},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"order":6,},
+=======
+    {"id":{"name":"NarativePage01","path":"rooms/NarativePage01/NarativePage01.yy",},"order":3,},
+>>>>>>> Stashed changes
 =======
     {"id":{"name":"NarativePage01","path":"rooms/NarativePage01/NarativePage01.yy",},"order":3,},
 >>>>>>> Stashed changes
@@ -36,7 +40,11 @@
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},"order":0,},
     {"id":{"name":"PlayerAttacks","path":"scripts/PlayerAttacks/PlayerAttacks.yy",},"order":0,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"spr_caster","path":"sprites/spr_caster/spr_caster.yy",},"order":6,},
+=======
+    {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":2,},
+>>>>>>> Stashed changes
 =======
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":2,},
 >>>>>>> Stashed changes
@@ -51,8 +59,12 @@
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":2,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":4,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"obj_finalboss","path":"objects/obj_finalboss/obj_finalboss.yy",},"order":0,},
     {"id":{"name":"tile_col","path":"tilesets/tile_col/tile_col.yy",},"order":0,},
+=======
+    {"id":{"name":"Introduction","path":"rooms/Introduction/Introduction.yy",},"order":1,},
+>>>>>>> Stashed changes
 =======
     {"id":{"name":"Introduction","path":"rooms/Introduction/Introduction.yy",},"order":1,},
 >>>>>>> Stashed changes
