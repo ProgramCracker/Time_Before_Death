@@ -6,6 +6,10 @@
  hitByAttack = -1;
  lastState = state;
  
+ spear = 0;
+ staff = 0;
+ shield = 0;
+ bow = 0;
 // collision map to see what the player can bump into
  collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
  

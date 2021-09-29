@@ -7,9 +7,6 @@ event_inherited();
 state = ENEMYSTATE.WANDER;
 
 sprMove = spr_skeleton;
-sprAttack = spr_skeletonAttack;
-sprHurt = spr_skeletonHurt;
-sprDie = spr_skeletonDie;
 
 enemyScript[ENEMYSTATE.WANDER] = EnemyWander;
 enemyScript[ENEMYSTATE.CHASE] = EnemyChase;

@@ -7,7 +7,7 @@
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedShake);
 	var _collided = PlayerCollision();
 	
-	sprite_index = spr_player_hurt;
+	/// sprite_index = spr_player_hurt; just flash
 	image_index = CARDINAL_DIR - 2;
 	
 	//change height

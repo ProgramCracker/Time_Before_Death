@@ -71,7 +71,7 @@ function EnemyChase(){
 	// check if close enough to launch an attack
 	if (instance_exists(target) && point_distance(x, y, target.x, target.y) <= enemyAttackRadius) {
 		state = ENEMYSTATE.ATTACK;
-		sprite_index = sprAttack;
+		// sprite_index = sprAttack;
 		image_index = 0;
 		image_speed = 1.0;
 		// target 8px past the player
@@ -155,5 +155,5 @@ function EnemyDie() {
 		y = yTo;
 	}
 		instance_destroy();
-		global.playerHealth += 5.0;
+		global.playerHealth += 10.0;
 }

@@ -7,9 +7,6 @@ event_inherited();
 state = ENEMYSTATE.WANDER;
 
 sprMove = spr_ghost;
-sprAttack = spr_ghostAttack;
-sprHurt = spr_ghostHurt;
-sprDie = spr_ghostDie;
 
 enemyScript[ENEMYSTATE.WANDER] = GhostWander;
 enemyScript[ENEMYSTATE.CHASE] = GhostChase;
