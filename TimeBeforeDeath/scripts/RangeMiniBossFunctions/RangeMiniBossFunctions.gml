@@ -9,6 +9,7 @@ function RangeAttack(){
 	with (instance_create_depth(x, y, depth, obj_arrow)) {
 		direction = _dir;
 		speed = 6;
+		image_angle = direction;
 	}
 	
 }
@@ -23,6 +24,7 @@ function MageAttack() {
 		with (instance_create_depth(x, y, depth, obj_fireball)) {
 		direction = _dir;
 		speed = 6;
+		image_angle = direction;
 	}
 	}
 }
