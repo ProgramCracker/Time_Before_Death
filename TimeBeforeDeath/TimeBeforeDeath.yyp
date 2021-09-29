@@ -37,7 +37,6 @@
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":26,},
     {"id":{"name":"RangeMiniBossFunctions","path":"scripts/RangeMiniBossFunctions/RangeMiniBossFunctions.yy",},"order":8,},
     {"id":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"order":0,},
-    {"id":{"name":"IntroSong","path":"sounds/IntroSong/IntroSong.yy",},"order":0,},
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},"order":0,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":24,},
     {"id":{"name":"PlayerAttacks","path":"scripts/PlayerAttacks/PlayerAttacks.yy",},"order":0,},
