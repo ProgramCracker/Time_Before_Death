@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function RangeAttack(){
-	
 	// where to point gun, essentially
 	var _dir = point_direction(x, y, obj_player.x, obj_player.y);
 	
@@ -47,7 +46,7 @@ function BossDie() {
 	}
 	if (image_index + sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps) >= image_number) {
 		instance_destroy();
-		global.playerHealth += 10.0;
+		global.playerHealth += 30.0;
 	}
 
 }

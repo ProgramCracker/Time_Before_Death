@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_NPCTEST",
-    "path": "sprites/spr_NPCTEST/spr_NPCTEST.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
