@@ -9,6 +9,16 @@ function Archer() {
 			global.questStatus[? "Archer"] = 1;
 		} break;
 		case 1: {
+			alarm[0] = 3 * room_speed;
+			enemyDamageTouch = 30;
+			enemyForceTouch = 32;
 		} break;
+	}
+	switch(global.questStatus[? "Lancer"]) {
+		case 0:
+		{
+			NewTextBox("Ah, it's me, Lancer Deltarune", 0);
+			global.questStatus[? "Lancer"] = 1;
+		}
 	}
 }

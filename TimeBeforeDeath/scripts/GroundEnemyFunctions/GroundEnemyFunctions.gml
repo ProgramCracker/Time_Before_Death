@@ -131,12 +131,13 @@ function EnemyHurt() {
 	} else {
 		x = xTo;
 		y = yTo;
-		if (statePrevious != ENEMYSTATE.ATTACK) {
+		if (statePrevious != ENEMYSTATE.CHASE) {
 			state = statePrevious;
 		} else {
 			state = ENEMYSTATE.CHASE;
 		}
 	}
+	state = ENEMYSTATE.CHASE;
 }
 
 function EnemyDie() {
