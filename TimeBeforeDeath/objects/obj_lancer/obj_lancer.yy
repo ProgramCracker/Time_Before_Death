@@ -25,11 +25,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyHP","path":"objects/p_enemy/p_enemy.yy",},"objectId":{"name":"p_enemy","path":"objects/p_enemy/p_enemy.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"enemyDamageTouch","path":"objects/p_enemy/p_enemy.yy",},"objectId":{"name":"p_enemy","path":"objects/p_enemy/p_enemy.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyHP","path":"objects/p_enemy/p_enemy.yy",},"objectId":{"name":"p_enemy","path":"objects/p_enemy/p_enemy.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyDamageTouch","path":"objects/p_enemy/p_enemy.yy",},"objectId":{"name":"p_enemy","path":"objects/p_enemy/p_enemy.yy",},"value":"30","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "MiniBosses",
